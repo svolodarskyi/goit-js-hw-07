@@ -11,10 +11,11 @@ loginForm.addEventListener('submit', event => {
     if(email === '' || password === '') {
         alert('All form fields must be filled in')
     } 
-
-    attr['email'] = email;
-    attr['password'] = password;
-    console.log(attr)
-    loginForm.reset()
+    else {
+        attr['email'] = email;
+        attr['password'] = password;
+        console.log(attr)
+        loginForm.reset()
+    }    
 })
 
