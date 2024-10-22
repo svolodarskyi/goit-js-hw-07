@@ -14,7 +14,7 @@ loginForm.addEventListener('submit', event => {
 
     attr['email'] = email;
     attr['password'] = password;
-
+    console.log(attr)
     loginForm.reset()
 })
 
